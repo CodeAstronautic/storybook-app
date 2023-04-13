@@ -1,3 +1,4 @@
+import { storiesOf } from '@storybook/react';
 import { Button } from './Button';
  import {text,boolean} from '@storybook/addon-knobs'
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
@@ -28,6 +29,19 @@ export const BrandB = {
 // export const Knobs = ()=>(
 //   <Button variantColor='blue'
 //   disabled={boolean('Disabled',false)}>
-//       {text('Label','Button Label')}
+//       {text('BackgroundColor','color')}
+     
 //   </Button>
-// ) 
+// )
+
+// storiesOf("storybook", module)
+// .addDecorator(withknobs)
+
+// .add("BrandA",()=>(
+//   <button 
+//   disabled={boolean("disabled", false)}
+//   style={{backgroundColor: color("color","red") }}
+//   >
+// {text("label","hiiii")}
+//   </button>
+// ) )

@@ -14,17 +14,30 @@
   display: inline-block;
   line-height: 1;
   margin-left: 10px;
+
 }
 .storybook-button--primary {
   color: white;
-  background-color: #1ea7fd;
+  background-color: #d5b77b ;
+}
+.storybook-button--primary2{
+  background-color: white;
+ color: #d5b77b ;
+ border: 1px solid #d5b77b ;
 }
 
 .storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  color: white;
+background-color: #0057B7;
+  /* box-shadow: rgba(185, 36, 36, 0.15) 0px 0px 0px 1px inset; */
 }
+
+.storybook-button--secondary2{
+  background-color: white;
+ color: #0057B7;
+ border: 1px solid #0057B7 ;
+}
+
 .storybook-button--small {
   font-size: 12px;
   padding: 10px 16px;
@@ -43,7 +56,9 @@
   padding: 20px;
   border: 1px solid #5f6769;
   font-family: "Muli", sans-serif;
+  
 }
+
 
 
 .text {
@@ -55,4 +70,37 @@
   width: 70%;
   float: left;
   padding: 20px;
+  /* text-decoration-line: 'underline', */
 }
+
+.storybook-button--secondary3{
+  color: #0057B7;
+}
+/* @media (min-width: 320px) {
+  /* .wrapper {
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #5f6769;
+    font-family: "Muli", sans-serif;
+    
+  } */
+
+  @media (max-width: 576px) {
+ .wrapper {
+    display: grid;
+    
+  }
+  .text{
+    padding: 20px;
+  }
+  .heading {
+    width: auto;
+    /* margin-left: 20px; */
+  }
+  }
+
+/* .hr{
+  height: 3px;
+  background: #0057B7;
+} */
