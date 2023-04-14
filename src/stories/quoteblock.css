@@ -6,7 +6,8 @@
   display: inline-block;
   line-height: 1;
 }
-.storybook-button-2{
+
+.storybook-button-2 {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
@@ -16,66 +17,94 @@
   margin-left: 10px;
 
 }
+
 .storybook-button--primary {
-  color: white;
-  background-color: #d5b77b ;
+  color: #FFFFFF;
+  background-color: #D2B99B;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.storybook-button--primary2{
-  background-color: white;
- color: #d5b77b ;
- border: 1px solid #d5b77b ;
+
+.storybook-button--primary2 {
+  background-color: #FFFFFF;
+  color: #D2B99B;
+  border: 1px solid #D2B99B;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .storybook-button--secondary {
-  color: white;
-background-color: #0057B7;
-  /* box-shadow: rgba(185, 36, 36, 0.15) 0px 0px 0px 1px inset; */
+  color: #FFFFFF;
+  background-color: #0057B7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.storybook-button--secondary2{
-  background-color: white;
- color: #0057B7;
- border: 1px solid #0057B7 ;
+.storybook-button--secondary2 {
+  background-color: #FFFFFF;
+  color: #0057B7;
+  border: 1px solid #0057B7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .storybook-button--small {
   font-size: 12px;
   padding: 10px 16px;
 }
+
 .storybook-button--medium {
   font-size: 14px;
   padding: 11px 20px;
 }
+
 .storybook-button--large {
   font-size: 16px;
   padding: 12px 24px;
 }
+
 .wrapper {
   display: flex;
   margin: 20px;
   padding: 20px;
-  border: 1px solid #5f6769;
+  /* border: 1px solid #ffff; */
   font-family: "Muli", sans-serif;
-  
+  box-shadow: 0px 0px 20px 0px #d3d6d6;
 }
-
-
 
 .text {
   float: left;
   padding: 20px;
 }
 
-.heading{
+.heading {
   width: 70%;
   float: left;
   padding: 20px;
   /* text-decoration-line: 'underline', */
 }
 
-.storybook-button--secondary3{
+.storybook-button--secondary3 {
   color: #0057B7;
 }
+
+@media (max-width: 576px ) {
+  .wrapper {
+    display: grid;
+
+  }
+
+  .text {
+    padding: 20px;
+  }
+
+  .heading {
+    width: auto;
+    /* margin-left: 20px; */
+  }
+
+  .p {
+    margin-bottom: 20px;
+  }
+}
+
+
 /* @media (min-width: 320px) {
   /* .wrapper {
     display: grid;
@@ -85,20 +114,6 @@ background-color: #0057B7;
     font-family: "Muli", sans-serif;
     
   } */
-
-  @media (max-width: 576px) {
- .wrapper {
-    display: grid;
-    
-  }
-  .text{
-    padding: 20px;
-  }
-  .heading {
-    width: auto;
-    /* margin-left: 20px; */
-  }
-  }
 
 /* .hr{
   height: 3px;

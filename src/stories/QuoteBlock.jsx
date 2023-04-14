@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import './quoteblock.css';
 import { LoremIpsum, } from 'react-lorem-ipsum';
 /**
  * Primary UI component for user interaction

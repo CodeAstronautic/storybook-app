@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react';
-import { Button } from './Button';
+import { Button } from './QuoteBlock';
  import {text,boolean} from '@storybook/addon-knobs'
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
@@ -20,11 +20,11 @@ export const BrandA = {
   },
 };
 
-export const BrandB = {
-  args: {
-    label: 'BUY TICKET',
-  },
-};
+// export const BrandB = {
+//   args: {
+//     label: 'BUY TICKET',
+//   },
+// };
 
 // export const Knobs = ()=>(
 //   <Button variantColor='blue'
