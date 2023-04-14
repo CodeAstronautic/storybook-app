@@ -84,7 +84,12 @@
   color: #0057B7;
 }
 
+/* .quoteblock{
+  padding: 0 50px;
+} */
+
 @media (max-width: 576px ) {
+
   .wrapper {
     display: grid;
 
